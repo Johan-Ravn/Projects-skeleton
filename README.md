@@ -1,0 +1,2 @@
+# Projects-skeleton
+All projects
