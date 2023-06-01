@@ -1,0 +1,6 @@
+[submodule "projects/Personal"]
+	path = projects/Personal
+	url = https://github.com/Johan-Ravn/Personal.git
+[submodule "projects/TTT-app"]
+	path = projects/TTT-app
+	url = https://github.com/Johan-Ravn/TTT-app.git
