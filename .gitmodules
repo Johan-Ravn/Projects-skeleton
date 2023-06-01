@@ -4,3 +4,6 @@
 [submodule "projects/TTT-app"]
 	path = projects/TTT-app
 	url = https://github.com/Johan-Ravn/TTT-app.git
+[submodule "BMI-tracker"]
+	path = BMI-tracker
+	url = https://github.com/Johan-Ravn/BMI-tracker.git
