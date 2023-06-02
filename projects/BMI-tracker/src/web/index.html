@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI tracker</title>
+    <link rel="stylesheet" href="src/web/stylesheet.css">
+    <script src="src/backend/scripts.js"></script>
+</head>
+<body>
+    <form id="alcoholForm" action="BAC" method="post">
+        <fieldset>
+            <legend>Drink reporter</legend>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name_id" required minlength="1" maxlength="10">
+            <label for="gender">Enter gender:</label>
+            <input type="radio" id="male_id" name="gender" value="Male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female_id" name="gender" value="Female" required>
+            <label for="female">Female</label>
+
+            <label for="weight">Weight in kg</label>
+            <input type="text" id="weight_id" required minlength="1" maxlength="300">
+
+            <input type="submit" id="drinkDrunk_id" value="Submit">
+        </fieldset>
+        <fieldset id="alcoholTracker" action="BAC" method="get">
+            <legend>Drink tracker</legend>
+            <label for="trackerName">Name</label>
+            <input type="text" id="trackerName_id" required minlength="1" maxlength="30">
+            <input type="submit" id="searchBAC_id" value="Alcohol Check">
+        </fieldset>
+    </form>
+</body>
+</html>
