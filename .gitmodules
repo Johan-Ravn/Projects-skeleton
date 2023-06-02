@@ -7,3 +7,6 @@
 [submodule "BMI-tracker"]
 	path = BMI-tracker
 	url = https://github.com/Johan-Ravn/BMI-tracker.git
+[submodule "cmd-line-hash"]
+	path = cmd-line-hash
+	url = https://github.com/Johan-Ravn/cmd-line-hash.git
