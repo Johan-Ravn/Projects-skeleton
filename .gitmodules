@@ -10,3 +10,6 @@
 [submodule "cmd-line-hash"]
 	path = cmd-line-hash
 	url = https://github.com/Johan-Ravn/cmd-line-hash.git
+[submodule "user-db"]
+	path = user-db
+	url = https://github.com/Johan-Ravn/user-db.git
