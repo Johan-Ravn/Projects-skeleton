@@ -38,10 +38,10 @@ class HashPassword:
 class User:
     def __repr__(self) -> str:
         parameters = [
-            f"Name={self.name}\n",
-            f"HashedPassword={self.hashedPassword}\n",
-            f"Mmail={self.mail}\n",
-            f"Id={self.id}\n"
+            f"Id = {self.id}\n"
+            f"Name = {self.name}\n",
+            f"Password = {self.hashedPassword}\n",
+            f"Mail = {self.mail}\n",
         ]
         return f"{''.join(parameters)}"
     
@@ -186,16 +186,16 @@ class InputUserInfo:
             else:
                 print("Wrong domain\nType \"Help\" to see possible domains")
     
-    def getName(self) -> Optional[str]:
+    def getName(self) -> str:
         return self.name
     
-    def getPassword(self) -> Optional[str]:
+    def getPassword(self) -> str:
         return self.password
     
-    def getMailUserName(self) -> Optional[str]:
+    def getMailUserName(self) -> str:
         return self.mailUserName
     
-    def getMailDomain(self) -> Optional[str]:
+    def getMailDomain(self) -> str:
         return self.mailDomain
                 
 
@@ -210,3 +210,4 @@ def createUserFromInput():
     ).createUser()
     return user
 
+createUserFromInput()
