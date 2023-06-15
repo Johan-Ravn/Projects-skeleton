@@ -13,3 +13,6 @@
 [submodule "user-db"]
 	path = user-db
 	url = https://github.com/Johan-Ravn/user-db.git
+[submodule "random_exercises_cpp"]
+	path = random_exercises_cpp
+	url = https://github.com/Johan-Ravn/random_exercises_cpp.git
